@@ -10,7 +10,7 @@
 
 ------------
 
-<p>Inserir quantas colunas de dados forem necessárias. Neste exemplo usaremos duas colunas com os dados **Cachorro** e **Raça**</p>
+Inserir quantas colunas de dados forem necessárias. Neste exemplo usaremos duas colunas com os dados **Cachorro** e **Raça**
 
 ![img1](https://i.imgur.com/4RmfHAb.jpg)
 
@@ -30,4 +30,4 @@ Note que a contagem começa a partir da 1ª célula com dado, não do cabeçalho
 
 A fórmula é **=LINS($A$2:A2)** que nos retorna a posição numérica das células do intervalo desejado.
 
-Agora iremos para a "Coluna2" e, neste momento, antes de inserirmos qualquer função, devemos inserir uma combo box na planilha (que será onde digitaremos o que desejamos buscar) e configurar algumas de suas propriedades. **Este é o passo que exige maior atenção, portanto siga fielmente o que vem a seguir: **
+Agora iremos para a "Coluna2" e, neste momento, antes de inserirmos qualquer função, devemos inserir uma combo box na planilha (que será onde digitaremos o que desejamos buscar) e configurar algumas de suas propriedades. **Este é o passo que exige maior atenção, portanto siga fielmente o que vem a seguir:**
