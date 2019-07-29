@@ -63,7 +63,7 @@ Por fim, na "Coluna3", usaremos uma fórmula para retornar do menor para o maior
 Agora que já temos montada nossa base de dados, colunas adicionais para auxílio na consulta e as fórmulas que nos retornam a posição do dado procurado, devemos finalizar a planilha replicando nossa base de dados e inserindo uma última fórmula da seguinte forma:
 
 1. Ocultar as colunas de dados e as de consulta. A planilha ficará com essa aparência:
-2. Inserir a fórmula **=SEERRO(ÍNDICE($A$2:$A$6;$E2;COLS($J$8:J8));"")** onde quiser que uma cópia das colunas "Cachorro" e "Raça" apareçam. Esta fórmula irá replicar a coluna "Cachorro" ($A$2:$A$6) em $J$8:J8. Para que replicar a coluna "Raça" substitua $A$2:$A$6 por $B$2:$B$6 e $J$8:J8 por $K$8:K8. A planilha ficará com a seguinte aparência:
+2. Inserir a fórmula **=SEERRO(ÍNDICE($A$2:$A$6;$E2;COLS($J$8:J8));"")** onde quiser que uma cópia das colunas "Cachorro" e "Raça" apareçam. Esta fórmula irá replicar a coluna "Cachorro" ($A$2:$A$6) em $J$8:J8. Para replicar a coluna "Raça" substitua $A$2:$A$6 por $B$2:$B$6 e $J$8:J8 por $K$8:K8. A planilha ficará com a seguinte aparência:
 
 ![img7](https://i.imgur.com/8dTAlBv.jpg)
 
