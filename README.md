@@ -22,7 +22,7 @@ Agora precisamos incluir 3 colunas. Apenas por convenção e organização, pode
 ![img2](https://i.imgur.com/7Si3MSM.jpg)
 
 
-Na coluna "consulta1", vamos inserir a função **LINS()** para agilizar a numeração da quantidade de itens, caso contrário, teríamos que digitar individualmente o número da linha correspondente à localização do dado na coluna "Cachorro". Em uma planilha com milhares de linhas, isso seria inviável. Para saber mais sobre a função dados, consulte [aqui.](https://support.office.com/pt-br/article/lins-fun%C3%A7%C3%A3o-lins-b592593e-3fc2-47f2-bec1-bda493811597)
+Na coluna "consulta1", vamos inserir a função **LINS()** para agilizar a numeração da quantidade de itens, caso contrário, teríamos que digitar individualmente o número da linha correspondente à localização do dado na coluna "Cachorro". Em uma planilha com milhares de linhas, isso seria inviável. Para saber mais sobre a função, consulte [aqui.](https://support.office.com/pt-br/article/lins-fun%C3%A7%C3%A3o-lins-b592593e-3fc2-47f2-bec1-bda493811597)
 
 Note que a contagem começa a partir da 1ª célula com dado, não do cabeçalho, que não nos interessa:
 
