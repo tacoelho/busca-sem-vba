@@ -37,7 +37,7 @@ Agora iremos para a "Coluna2" e, neste momento, antes de inserirmos qualquer fun
 ---
 
 Siga até a aba Dados > Inserir > Controles ActiveX e selecione o controle Caixa de Combinação. No **Modo de Design** clique em **Propriedades** e faça os ajustes a seguir:
-- Em **LinkedCell** digite a referência à célula onde os dados digitados na Caixa de Combinação irão ser replicados. Por exemplo. ao escolher a célula J5, tudo o que for digitado na Caixa de Combinação aparecerá na referida célula:
+- Em **LinkedCell** digite a referência à célula onde os dados digitados na Caixa de Combinação irão ser replicados. Por exemplo, ao escolher a célula J5, tudo o que for digitado na Caixa de Combinação aparecerá na referida célula:
 
 ![img4](https://i.imgur.com/TW9rrmx.jpg)
 
@@ -62,9 +62,8 @@ Por fim, na "Coluna3", usaremos uma fórmula para retornar do menor para o maior
 
 Agora que já temos montada nossa base de dados, colunas adicionais para auxílio na consulta e as fórmulas que nos retornam a posição do dado procurado, devemos finalizar a planilha replicando nossa base de dados e inserindo uma última fórmula da seguinte forma:
 
-1. Copiar as colunas **Cachorro** e **Raça** e colar próximo à Caixa de Combinação.
-2. Ocultar as colunas de dados e as de consulta. A planilha ficará com essa aparência:
-3. Inserir a fórmula **=SEERRO(ÍNDICE($A$2:$A$6;$E2;COLS($J$8:J8));"")** onde quiser que uma cópia das colunas "Cachorro" e "Raça" apareçam. Esta fórmula irá replicar a coluna "Cachorro" ($A$2:$A$6) em $J$8:J8. Para que replicar a coluna "Raça" substitua $A$2:$A$6 por $B$2:$B$6 e $J$8:J8 por $K$8:K8. A planilha ficará com a seguinte aparência:
+1. Ocultar as colunas de dados e as de consulta. A planilha ficará com essa aparência:
+2. Inserir a fórmula **=SEERRO(ÍNDICE($A$2:$A$6;$E2;COLS($J$8:J8));"")** onde quiser que uma cópia das colunas "Cachorro" e "Raça" apareçam. Esta fórmula irá replicar a coluna "Cachorro" ($A$2:$A$6) em $J$8:J8. Para que replicar a coluna "Raça" substitua $A$2:$A$6 por $B$2:$B$6 e $J$8:J8 por $K$8:K8. A planilha ficará com a seguinte aparência:
 
 ![img7](https://i.imgur.com/8dTAlBv.jpg)
 
