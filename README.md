@@ -73,5 +73,5 @@ Reexibindo as colunas, podemos ver melhor o funcionamento e integração das fó
 
 ![img8](https://i.imgur.com/MPJE13P.jpg)
 
-# Então é isso, pessoal! Uma ferramenta útil pra você impressionar o chefe e sem digitar uma linha de código VBA :^]
+# Então é isso! Uma ferramenta útil pra você impressionar o chefe e sem digitar uma linha de código :^]
 
